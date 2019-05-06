@@ -1,5 +1,7 @@
 ![Logo](AsyncEx.128.png)
 
+This fork exists for purposes of strong naming.
+
 # AsyncEx
 
 A helper library for async/await.
