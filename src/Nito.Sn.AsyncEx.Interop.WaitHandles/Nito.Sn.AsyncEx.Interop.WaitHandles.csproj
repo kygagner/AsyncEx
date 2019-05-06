@@ -1,25 +1,31 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Description>Asynchronous coordination primitives.</Description>
-    <VersionPrefix>5.0.0</VersionPrefix>
+    <Description>Task wrappers for WaitHandles.</Description>
+    <VersionPrefix>1.0.0</VersionPrefix>
     <VersionSuffix></VersionSuffix>
     <Authors>Stephen Cleary</Authors>
     <TargetFrameworks>netstandard1.3;netstandard2.0</TargetFrameworks>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <PackageTags>async;asynclock;asynclazy</PackageTags>
-    <PackageProjectUrl>https://github.com/StephenCleary/AsyncEx</PackageProjectUrl>
+    <PackageTags>task;async;waithandle</PackageTags>
+    <PackageProjectUrl>https://github.com/kygagner/AsyncEx</PackageProjectUrl>
     <PackageIconUrl>https://github.com/StephenCleary/AsyncEx/raw/master/AsyncEx.128.png</PackageIconUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <RootNamespace>Nito.AsyncEx</RootNamespace>
+    <AssemblyOriginatorKeyFile>..\..\nito.snk</AssemblyOriginatorKeyFile>
+    <SignAssembly>true</SignAssembly>
   </PropertyGroup>
 
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.3'">
+    <PackageReference Include="System.Threading.ThreadPool" Version="4.3.0" />
+  </ItemGroup>
+
   <ItemGroup>
-    <ProjectReference Include="..\Nito.AsyncEx.Tasks\Nito.AsyncEx.Tasks.csproj" />
+    <ProjectReference Include="..\Nito.Sn.AsyncEx.Tasks\Nito.Sn.AsyncEx.Tasks.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,8 +33,6 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Nito.Collections.Deque" Version="1.0.4" />
-    <PackageReference Include="Nito.Disposables" Version="2.0.0" />
   </ItemGroup>
 
 </Project>

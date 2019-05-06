@@ -16,15 +16,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FBBB0AFC-0473-47AC-A5F8-235524DF8A8A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nito.AsyncEx.Tasks", "src\Nito.AsyncEx.Tasks\Nito.AsyncEx.Tasks.csproj", "{3817C77D-0C9D-4B57-8C00-27C7BC398E61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nito.AsyncEx.Tasks", "src\Nito.Sn.AsyncEx.Tasks\Nito.Sn.AsyncEx.Tasks.csproj", "{3817C77D-0C9D-4B57-8C00-27C7BC398E61}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nito.AsyncEx.Coordination", "src\Nito.AsyncEx.Coordination\Nito.AsyncEx.Coordination.csproj", "{8C44A01D-60CD-4221-A94B-86EF177D9061}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nito.AsyncEx.Coordination", "src\Nito.Sn.AsyncEx.Coordination\Nito.Sn.AsyncEx.Coordination.csproj", "{8C44A01D-60CD-4221-A94B-86EF177D9061}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nito.AsyncEx.Interop.WaitHandles", "src\Nito.AsyncEx.Interop.WaitHandles\Nito.AsyncEx.Interop.WaitHandles.csproj", "{B48EF95C-B838-453D-8F3D-3B12F948C29E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nito.AsyncEx.Interop.WaitHandles", "src\Nito.Sn.AsyncEx.Interop.WaitHandles\Nito.Sn.AsyncEx.Interop.WaitHandles.csproj", "{B48EF95C-B838-453D-8F3D-3B12F948C29E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nito.AsyncEx.Oop", "src\Nito.AsyncEx.Oop\Nito.AsyncEx.Oop.csproj", "{47B3CBF6-BF03-4AD0-8795-4060A8AE0959}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nito.AsyncEx.Oop", "src\Nito.Sn.AsyncEx.Oop\Nito.Sn.AsyncEx.Oop.csproj", "{47B3CBF6-BF03-4AD0-8795-4060A8AE0959}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nito.AsyncEx.Context", "src\Nito.AsyncEx.Context\Nito.AsyncEx.Context.csproj", "{C3193836-09A1-401D-A232-CC4A7431C2B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nito.AsyncEx.Context", "src\Nito.Sn.AsyncEx.Context\Nito.Sn.AsyncEx.Context.csproj", "{C3193836-09A1-401D-A232-CC4A7431C2B4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{89C049C2-1211-4BB8-A2FA-D8ECB60676A1}"
 EndProject

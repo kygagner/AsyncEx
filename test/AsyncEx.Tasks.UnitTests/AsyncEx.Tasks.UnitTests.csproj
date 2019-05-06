@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Nito.AsyncEx.Tasks\Nito.AsyncEx.Tasks.csproj" />
+    <ProjectReference Include="..\..\src\Nito.Sn.AsyncEx.Tasks\Nito.Sn.AsyncEx.Tasks.csproj" />
   </ItemGroup>
 
   <ItemGroup>

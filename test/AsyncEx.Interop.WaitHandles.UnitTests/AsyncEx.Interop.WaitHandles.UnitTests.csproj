@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Nito.AsyncEx.Interop.WaitHandles\Nito.AsyncEx.Interop.WaitHandles.csproj" />
+    <ProjectReference Include="..\..\src\Nito.Sn.AsyncEx.Interop.WaitHandles\Nito.Sn.AsyncEx.Interop.WaitHandles.csproj" />
   </ItemGroup>
 
   <ItemGroup>
